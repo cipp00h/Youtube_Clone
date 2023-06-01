@@ -36,11 +36,17 @@ body {
   height: 100%;
 }
 
+.videoPlayer {
+  width: 713px;
+  height: 401px;
+  position: relative;
+}
+
 #autoPlay {
   position: absolute;
-  top: 78%;
-  left: 67%;
-  transform: translate(-50%, -50%);
+  top: 8px;
+  left: 755px;
+  transform: none;
 }
 
 label {
