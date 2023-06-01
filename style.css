@@ -1,0 +1,36 @@
+/* Reset some basic styles */
+body,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+#container.ytd-player {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.video-stream.html5-main-video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* For 16:9 aspect ratio */
+  position: relative;
+}
+
+.video-stream.html5-main-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
