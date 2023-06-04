@@ -36,7 +36,7 @@ body {
   height: 100%;
 }
 
-.videoPlayer {
+#videoPlayer {
   width: 713px;
   height: 401px;
   position: relative;
@@ -45,7 +45,7 @@ body {
 #autoPlay {
   position: absolute;
   top: 8px;
-  left: 755px;
+  left: 670px;
   transform: none;
 }
 
