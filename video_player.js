@@ -59,4 +59,4 @@ class VideoPlayer {
   }
 }
 
-const player = new VideoPlayer("vo1");
+const player = new VideoPlayer("videoPlayer");
